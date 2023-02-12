@@ -2,10 +2,10 @@
 # AUTHOR: Zyilin98
 # REPO: https://github.com/Zyilin98/Host/tree/main/Clash
 # UPDATED: 2023-02-04 11:06:08
-# DOMAIN: 95
+# DOMAIN: 89
 # DOMAIN-SUFFIX: 0
 # IP-CIDR: 0
-# TOTAL: 95
+# TOTAL: 89
 # Form: https://github.com/LoopDns/Fuck-you-MIUI/blob/main/Fhosts
 # From: https://github.com/LoopDns/Fuck-you-MIUI/blob/main/MIhosts
 # 简易的进行规则聚合和去重,域名来源于上述两个地址
@@ -65,59 +65,3 @@ payload:
   - DOMAIN,hd.browser.miui.com
   - DOMAIN,c3-cache.browser.miui.com
   - DOMAIN,api-ipv4.browser.miui.com
-  #??? 云控?
-  - DOMAIN,qsb.browser.miui.srv
-  - DOMAIN,rom.pt.miui.srv
-  - DOMAIN,ccc.sys.miui.com
-  - DOMAIN,jupiter.sys.miui.com
-  - DOMAIN,metok.sys.miui.com
-  # unknown
-  - DOMAIN,data.sec.miui.com
-  # 其他系统应用的垃圾sdk
-  # qq扫描 bugly 阅读 快应用等api
-  # 可能会影响部分功能 
-  - DOMAIN,tmfsdk.m.qq.com
-  - DOMAIN,tmfsdk4.m.qq.com
-  - DOMAIN,tbm.snssdk.com
-  - DOMAIN,othstr.beacon.qq.com
-  - DOMAIN,tools.3g.qq.com
-  - DOMAIN,tmfsdktcp.m.qq.com
-  - DOMAIN,h.trace.qq.com
-  - DOMAIN,hub5pn.wap.sandai.net
-  - DOMAIN,tpstelemetry.tencent.com
-  - DOMAIN,pssn.alicdn.com
-  - DOMAIN,tmfsdktcpv4.m.qq.com
-  - DOMAIN,tmeadcomm.y.qq.com
-  - DOMAIN,tangram.e.qq.com
-  - DOMAIN,us.l.qq.com
-  - DOMAIN,tdid.m.qq.com
-  - DOMAIN,h.trace.qq.com
-  - DOMAIN,api.yky.qq.com
-  - DOMAIN,sdk.e.qq.com
-  - DOMAIN,android.bugly.qq.com
-  - DOMAIN,toblog.ctobsnssdk.com
-  - DOMAIN,tobapplog.ctobsnssdk.com
-  - DOMAIN,cfg.imtt.qq.com
-  - DOMAIN,statres.quickapp.cn
-  - DOMAIN,qr.quickapp.cn
-  - DOMAIN,s1.irs03.com
-  - DOMAIN,up.cm.ksmobile.com
-  - DOMAIN,dl.cm.ksmobile.com
-  - DOMAIN,dw-online.ksosoft.com
-  - DOMAIN,zzhc.vnet.cn
-  - DOMAIN,beacon-api.aliyuncs.com
-  - DOMAIN,mpush-api.aliyun.com
-  - DOMAIN,ug.snssdk.com
-  - DOMAIN,t7z.cupid.iqiyi.com
-  - DOMAIN,worldwide.sogou.com
-  - DOMAIN,www.pangolin-dsp-toutiao.com
-  - DOMAIN,master.wap.dphub.sandai.net
-  - DOMAIN,hub5u.wap.sandai.net
-  - DOMAIN,idx.m.hub.sandai.net
-  - DOMAIN,tw13b093.sandai.net
-  - DOMAIN,adinfo.ra1.xlmc.sec.miui.com
-  - DOMAIN,test.ad.xiaomi.com
-  - DOMAIN,uploadlog.xlmc.sandai.net
-  - DOMAIN,t03-api.xlmc.xunlei.com
-  - DOMAIN,pre.api.tw06.xlmc.sandai.net
-  - DOMAIN,guid-xldw-ssl.n0808.com
