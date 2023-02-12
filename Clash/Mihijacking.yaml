@@ -1,11 +1,5 @@
 # NAME: MiHijacking
 # AUTHOR: Zyilin98
-# REPO: https://github.com/Zyilin98/Host/tree/main/Clash
-# UPDATED: 2023-02-04 11:06:08
-# DOMAIN: 89
-# DOMAIN-SUFFIX: 0
-# IP-CIDR: 0
-# TOTAL: 89
 # Form: https://github.com/LoopDns/Fuck-you-MIUI/blob/main/Fhosts
 # From: https://github.com/LoopDns/Fuck-you-MIUI/blob/main/MIhosts
 # 简易的进行规则聚合和去重,域名来源于上述两个地址
@@ -41,8 +35,6 @@ payload:
   - DOMAIN,log.ad.xiaomi.com
   - DOMAIN,m.track.ad.xiaomi.com
   - DOMAIN,sdkconfig.ad.xiaomi.com
-  #好像是小米自己的引擎 还在内测
-  - DOMAIN,mazu.sec.miui.com
   #avl
   - DOMAIN,miui-fxcse.avlyun.com
   - DOMAIN,sdkconf.avlyun.com
@@ -51,8 +43,6 @@ payload:
   - DOMAIN,update.avlyun.sec.miui.com
   - DOMAIN,ixav-cse.avlyun.com
   - DOMAIN,logupdate.avlyun.sec.miui.com
-  #权限云控 好像只针对部分机型？
-  - DOMAIN,auth.be.sec.miui.com
   #反诈
   - DOMAIN,flash.sec.miui.com
   #浏览器 热点下滑等
