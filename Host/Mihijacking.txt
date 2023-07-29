@@ -4,7 +4,7 @@
 # From: https://github.com/LoopDns/Fuck-you-MIUI/blob/main/MIhosts
 # 简易的进行规则聚合和去重,域名来源于上述两个地址
 
-  #此处主要屏蔽小米云扫描组件
+#此处主要屏蔽小米云扫描组件
 127.0.0.1 log.avlyun.sec.intl.miui.com
 127.0.0.1 update.avlyun.sec.miui.com
 127.0.0.1 ixav-cse.avlyun.com.com
@@ -17,24 +17,24 @@
 127.0.0.1 api.installer.xiaomi.com
 127.0.0.1 tmfsdk.m.qq.com
 127.0.0.1 a0.app.xiaomi.com
-  #禁用后将无法云扫描病毒
+#禁用后将无法云扫描病毒
 127.0.0.1 etl-xlmc-ssl.sandai.net
 127.0.0.1 cn.app.chat.xiaomi.net
-  #禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
+#禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
 127.0.0.1 idm.api.io.mi.com
 127.0.0.1 api.jr.mi.com
 127.0.0.1 ssl-cdn.static.browser.mi-img.com
 127.0.0.1 flash.sec.miui.com
-  #MIUI 安装检查
+#MIUI 安装检查
 127.0.0.1 api.installer.xiaomi.com
-  #OneTrack & Analytics & Ad
+#OneTrack & Analytics & Ad
 127.0.0.1 tracking.miui.com
 127.0.0.1 data.mistat.xiaomi.com
 127.0.0.1 diagnosis.ad.xiaomi.com
 127.0.0.1 log.ad.xiaomi.com
 127.0.0.1 m.track.ad.xiaomi.com
 127.0.0.1 sdkconfig.ad.xiaomi.com
-  #avl
+#avl
 127.0.0.1 miui-fxcse.avlyun.com
 127.0.0.1 sdkconf.avlyun.com
 127.0.0.1 sdkconf.avlyun.com
@@ -42,9 +42,9 @@
 127.0.0.1 update.avlyun.sec.miui.com
 127.0.0.1 ixav-cse.avlyun.com
 127.0.0.1 logupdate.avlyun.sec.miui.com
-  #反诈
+#反诈
 127.0.0.1 flash.sec.miui.com
-  #浏览器 热点下滑等
+#浏览器 热点下滑等
 127.0.0.1 o2o.api.xiaomi.com
 127.0.0.1 api.browser.miui.com
 127.0.0.1 ssl-cdn.static.browser.mi-img.com
@@ -54,3 +54,14 @@
 127.0.0.1 hd.browser.miui.com
 127.0.0.1 c3-cache.browser.miui.com
 127.0.0.1 api-ipv4.browser.miui.com
+#简单添加一些别的域名
+127.0.0.1 aeventlog.beacon.qq.com
+127.0.0.1 dataflow.biliapi.com
+127.0.0.1 sdkconfig.ad.xiaomi.com
+127.0.0.1 h-adashx.ut.taobao.com
+127.0.0.1 events.gfe.nvidia.com
+127.0.0.1 errlog.umeng.com
+127.0.0.1 xp.apple.com
+127.0.0.1 pubsub02.oray.net
+127.0.0.1 pcapp-data-collect.youku.com
+127.0.0.1 toblog.ctobsnssdk.com
