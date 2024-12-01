@@ -5,28 +5,31 @@
 # 简易的进行规则聚合和去重,域名来源于上述两个地址
 
 #此处主要屏蔽小米云扫描组件
-127.0.0.1 log.avlyun.sec.intl.miui.com
-127.0.0.1 update.avlyun.sec.miui.com
-127.0.0.1 ixav-cse.avlyun.com.com
-127.0.0.1 logupdate.avlyun.sec.miui.com
-127.0.0.1 miui-fxcse.avlyun.com
-127.0.0.1 sdkconf.avlyun.com
-127.0.0.1 sdkconf.avlyun.com
-127.0.0.1 miav-cse.avlyun.com
-127.0.0.1 miav-cse.avlyun.com
-127.0.0.1 api.installer.xiaomi.com
-127.0.0.1 tmfsdk.m.qq.com
-127.0.0.1 a0.app.xiaomi.com
+0.0.0.0 log.avlyun.sec.intl.miui.com
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 ixav-cse.avlyun.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+0.0.0.0 miui-fxcse.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 api.installer.xiaomi.com
+0.0.0.0 tmfsdk.m.qq.com
+
 #禁用后将无法云扫描病毒
 127.0.0.1 etl-xlmc-ssl.sandai.net
 127.0.0.1 cn.app.chat.xiaomi.net
+
 #禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
 127.0.0.1 idm.api.io.mi.com
 127.0.0.1 api.jr.mi.com
 127.0.0.1 ssl-cdn.static.browser.mi-img.com
 127.0.0.1 flash.sec.miui.com
-#MIUI 安装检查
+
+# MIUI 安装检查
 127.0.0.1 api.installer.xiaomi.com
+
 #OneTrack & Analytics & Ad
 127.0.0.1 tracking.miui.com
 127.0.0.1 data.mistat.xiaomi.com
@@ -34,7 +37,16 @@
 127.0.0.1 log.ad.xiaomi.com
 127.0.0.1 m.track.ad.xiaomi.com
 127.0.0.1 sdkconfig.ad.xiaomi.com
-#avl
+127.0.0.1 api.ad.xiaomi.com
+
+# 小爱同学
+127.0.0.1 tracker.ai.xiaomi.com
+127.0.0.1 grayconfig.ai.xiaomi.com
+
+# 好像是小米自己的引擎 还在内测
+127.0.0.1 mazu.sec.miui.com
+
+# avl
 127.0.0.1 miui-fxcse.avlyun.com
 127.0.0.1 sdkconf.avlyun.com
 127.0.0.1 sdkconf.avlyun.com
@@ -42,8 +54,13 @@
 127.0.0.1 update.avlyun.sec.miui.com
 127.0.0.1 ixav-cse.avlyun.com
 127.0.0.1 logupdate.avlyun.sec.miui.com
+
 #反诈
 127.0.0.1 flash.sec.miui.com
+
+#快应用
+127.0.0.1 api.hybrid.xiaomi.com
+
 #浏览器 热点下滑等
 127.0.0.1 o2o.api.xiaomi.com
 127.0.0.1 api.browser.miui.com
@@ -54,6 +71,32 @@
 127.0.0.1 hd.browser.miui.com
 127.0.0.1 c3-cache.browser.miui.com
 127.0.0.1 api-ipv4.browser.miui.com
+127.0.0.1 qsb.browser.miui.com
+127.0.0.1 sentry.d.xiaomi.net
+127.0.0.1 global-search.browser.miui.com
+127.0.0.1 global.search.xiaomi.net
+
+# 系统应用检查更新 e.g 下载管理
+127.0.0.1 api.developer.xiaomi.com
+127.0.0.1 update.miui.com
+
+# HTML查看器
+127.0.0.1 port.sec.miui.com
+
+#??? 云控?
+127.0.0.1 qsb.browser.miui.srv
+127.0.0.1 rom.pt.miui.srv
+127.0.0.1 ccc.sys.miui.com
+127.0.0.1 jupiter.sys.miui.com
+127.0.0.1 metok.sys.miui.com
+
+# unknown
+127.0.0.1 data.sec.miui.com
+
+#xiaomi音乐广告
+127.0.0.1 pgdt.gtimg.cn
+127.0.0.1 *.rdt.tfogc.com
+
 #简单添加一些别的域名
 127.0.0.1 aeventlog.beacon.qq.com
 127.0.0.1 dataflow.biliapi.com
